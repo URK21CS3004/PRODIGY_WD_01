@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: blueviolet;
+    color: #c20404;
+}
+
+.content {
+    padding-top: 100px;
+    text-align: center;
+}
+.scrolled .nav {
+    background-color: darkblue;
+}
+
+.scrolled nav a {
+    color: white;
+}
+
+section {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
